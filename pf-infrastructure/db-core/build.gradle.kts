@@ -6,6 +6,12 @@ tasks.getByName("jar") {
     enabled = true
 }
 
+allOpen {
+    annotation("jakarta.persistence.Entity")
+    annotation("jakarta.persistence.MappedSuperclass")
+    annotation("jakarta.persistence.Embeddable")
+}
+
 dependencies {
     implementation(project(":pf-application"))
     implementation(project(":pf-domain"))

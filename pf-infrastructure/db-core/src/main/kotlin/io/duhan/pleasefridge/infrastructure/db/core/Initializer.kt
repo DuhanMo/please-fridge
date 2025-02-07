@@ -1,4 +1,4 @@
-package io.duhan.pleasefridge.infrastructure.mysql.sample
+package io.duhan.pleasefridge.infrastructure.db.core
 
 import org.springframework.boot.CommandLineRunner
 import org.springframework.stereotype.Component

@@ -1,4 +1,4 @@
-package io.duhan.pleasefridge.infrastructure.mysql.sample
+package io.duhan.pleasefridge.infrastructure.db.core
 
 import io.duhan.pleasefridge.application.port.SampleRepository
 import io.duhan.pleasefridge.domain.Sample

@@ -13,12 +13,6 @@ plugins {
 
 java.sourceCompatibility = JavaVersion.valueOf("VERSION_${property("javaVersion")}")
 
-java {
-    toolchain {
-        languageVersion = JavaLanguageVersion.of(21)
-    }
-}
-
 allprojects {
     group = "${property("projectGroup")}"
     version = "${property("applicationVersion")}"

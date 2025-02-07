@@ -1,10 +1,13 @@
 rootProject.name = "please-fridge"
 
 include(
+    "pf-bootstrap",
     "pf-api",
     "pf-application",
     "pf-domain",
-    "pf-infrastructure:mysql"
+    "pf-infrastructure:db-core",
+    "pf-support:logging",
+    "pf-support:monitoring"
 )
 
 pluginManagement {
