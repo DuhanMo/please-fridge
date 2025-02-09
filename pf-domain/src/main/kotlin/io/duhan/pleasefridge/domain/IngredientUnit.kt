@@ -7,5 +7,7 @@ enum class IngredientUnit(val displayName: String) {
     CAN("캔"), // 통조림류 (참치 1캔, 옥수수 1캔, 콩 1캔)
     BAG("봉지"), // 봉지 단위 (쌀 1봉지, 과자 1봉지, 라면 1봉지)
     GRAM("g"), // 무게 단위 (고기 500g, 밀가루 1000g, 소금 200g)
+    KILO("kg"), // 무게 단위 (고기 5kg, 밀가루 1kg, 소금 2kg)
+    MILLI("ml"), // 액체 단위 (우유 100ml, 물 200ml, 식용유 100ml)
     LITER("L"), // 액체 단위 (우유 1L, 물 2L, 식용유 1L)
 }

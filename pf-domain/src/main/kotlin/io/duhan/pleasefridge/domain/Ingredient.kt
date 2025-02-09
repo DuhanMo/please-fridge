@@ -8,21 +8,21 @@ class Ingredient(
 ) {
     fun update(
         name: String,
-        quantity: IngredientQuantity,
+        quantity: Double,
         unit: IngredientUnit,
     ) {
         this.name = name
-        this.quantity = quantity
+        this.quantity = IngredientQuantity(quantity)
         this.unit = unit
     }
 
     companion object {
         fun create(
             name: String,
-            quantity: IngredientQuantity,
+            quantity: Double,
             unit: IngredientUnit,
         ): Ingredient {
-            return Ingredient(0, name, quantity, unit)
+            return Ingredient(0L, name, IngredientQuantity(quantity), unit)
         }
     }
 }

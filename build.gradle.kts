@@ -31,6 +31,8 @@ subprojects {
     apply(plugin = "io.spring.dependency-management")
     apply(plugin = "org.asciidoctor.jvm.convert")
     apply(plugin = "org.jlleitschuh.gradle.ktlint")
+    apply(plugin = "java-library")
+    apply(plugin = "org.gradle.java-test-fixtures")
 
     dependencies {
         implementation("org.jetbrains.kotlin:kotlin-reflect")
